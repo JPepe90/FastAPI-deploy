@@ -249,5 +249,6 @@ $RECYCLE.BIN/
 
 # Project specific files and folders
 config.py
-
+env
+database.sqlite
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
