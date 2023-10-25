@@ -8,12 +8,16 @@ from fastapi.encoders import jsonable_encoder
 
 from config.database import Session, engine, Base
 from models.movie import Movie as MovieModel
+from middlewares.error_handler import ErrorHandler
 
 app = FastAPI()
 
 # Ajustes de la documentacion automatica de Swagger
 app.title = 'Nueva aplicacion con FastAPI'
 app.version = '0.0.1'
+
+# Middlewares de errores
+app.add_middleware(ErrorHandler)
 
 Base.metadata.create_all(bind=engine)
 
