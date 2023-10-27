@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: FastAPI
 description: A FastAPI server
@@ -27,3 +28,7 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server.
 
 - To learn about how to use FastAPI with most of its features, you can visit the [FastAPI Documentation](https://fastapi.tiangolo.com/tutorial/)
 - To learn about Hypercorn and how to configure it, read their [Documentation](https://hypercorn.readthedocs.io/)
+=======
+# python-fastapi-sqlalchemy
+Python API using FastAPI and SQLAlchemy
+>>>>>>> 9cd714536a518676031155a7ffa2e7cc57b2f727
