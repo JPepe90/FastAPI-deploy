@@ -1,3 +1,8 @@
 my_secret_jwt = ''
 
-users = []
+users = [
+  {
+    'email': 'admin@admin'
+    'password': 'admin'
+  }
+]
