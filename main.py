@@ -1,12 +1,10 @@
 from fastapi import FastAPI
-<<<<<<< HEAD
 
 app = FastAPI()
 
 @app.get("/")
 async def root():
     return {"greeting": "Hello, World!", "message": "Welcome to FastAPI!"}
-=======
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from utils.jwt_manager import create_token
@@ -27,4 +25,3 @@ app.include_router(movie_router)
 app.include_router(login_router)
 
 Base.metadata.create_all(bind=engine)
->>>>>>> 9cd714536a518676031155a7ffa2e7cc57b2f727

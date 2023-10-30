@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,python
 
@@ -52,7 +50,6 @@ Temporary Items
 *.icloud
 
 ### Python ###
->>>>>>> 9cd714536a518676031155a7ffa2e7cc57b2f727
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
